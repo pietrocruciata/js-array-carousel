@@ -39,7 +39,13 @@ next.addEventListener('click', function () {
 
     itemArray++;
 
+    if (itemArray === imagesArray.length) {
+        itemArray = 0
+    }
+
     divItemList[itemArray].classList.add('active');
+
+
 })
 
 //ASCOLTO IL BOTTONE PREV
@@ -48,9 +54,17 @@ prev.addEventListener('click', function () {
 
     itemArray--;
 
+    if (itemArray < 0) {
+        itemArray = 4
+    }
+
     divItemList[itemArray].classList.add('active');
 
 })
+
+
+
+
 
 
 
