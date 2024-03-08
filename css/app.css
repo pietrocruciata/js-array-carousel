@@ -18,8 +18,17 @@ img{
     align-items: center;
 }
 
-.itemslider{
+.slider{
     position: relative;
+}
+
+
+.item{
+    display: none;
+}
+
+.active{
+    display: block;
 }
 
 .prev{
