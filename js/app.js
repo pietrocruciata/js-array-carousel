@@ -6,9 +6,11 @@ const imagesArray = [
     "./img/04.webp",
     "./img/05.webp"
 ]
+
 let itemArray = 0;
 const itemsSLiderDOMElement = document.querySelector('.items-slider')
 let itemsHTML = '';
+
 //CREO UN CICLO FOR CONTENENTE UN TAMPLATE LITERAL
 for (let i = 0; i < imagesArray.length; i++) {
 
